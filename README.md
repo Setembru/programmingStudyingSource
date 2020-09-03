@@ -1,2 +1,4 @@
 # gitTutoSource
-The sources from the slides from the Git tutorial by Fabio Akita.
+This repository includes archives for self-development in programming career.
+
+Some of the content is in Portuguese.
