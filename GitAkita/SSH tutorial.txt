@@ -1,0 +1,22 @@
+1. Criando as chaves SSH
+ssh-keygen.exe -t rsa
+enter
+enter
+Não precisa digitar nada
+
+2. Vá ao diretório de usuário
+id_rsa (privada, mantenha guardado p/ sempre)
+id_rsa.pub
+
+3. Explicação
+O arquivo público serve p/ GitHub, por exemplo.
+A chave privada serve p/ que SÓ você possa abrir coisas encriptadas usando a chave pública.
+
+São duas chaves interrelacionadas.
+O que a chave privada encripta, só a chave pública abre.
+O que a chave pública encripta, só a chave privada abre.
+
+Clamando identidade: 
+Um terceiro conhece essa chave pública
+Se você enviar um arquivo encriptado a este terceiro e ele conseguir abrir com essa chave pública, pronto
+você clamou.
